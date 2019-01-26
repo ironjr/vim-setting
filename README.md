@@ -10,7 +10,7 @@ My vim settings.
 ```
 :PlugInstall
 ```
-Notice that at first run you may see some error opening uninstalled packages. It is natural and may be ignored.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notice that at first run you may see some error opening uninstalled packages. It is natural and may be ignored.
 - Now, if you want to install YouCompleteMe auto-completer in your vim, follow the guide in [the official page](https://github.com/Valloric/YouCompleteMe#linux-64-bit)
 - Happy hacking!
 
