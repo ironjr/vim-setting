@@ -91,6 +91,18 @@ set t_Co=256
 colorscheme monokai
 "colorscheme badwolf
 
+" Vundle settings
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" Required for running Vundle
+Plugin 'VundleVim/Vundle.vim'
+" Autocompleter
+Plugin 'Valloric/YouCompleteMe'
+call vundle#end()
+filetype plugin indent on
+
 " Startup code
 autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
