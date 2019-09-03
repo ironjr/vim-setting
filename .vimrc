@@ -22,7 +22,6 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 " Color schemes
 Plug 'ayu-theme/ayu-vim'
 Plug 'beigebrucewayne/Turtles'
-Plug 'kudabux/vim-srcery-drk'
 Plug 'baines/vim-colorscheme-thaumaturge'
 Plug 'chr4/jellygrass.vim'
 Plug 'crusoexia/vim-monokai'
@@ -86,10 +85,9 @@ set t_Co=256
 
 "colorscheme jellygrass
 "colorscheme thaumaturge
-"colorscheme srcery
 "colorscheme turtles
-colorscheme monokai
-"colorscheme badwolf
+"colorscheme monokai
+colorscheme badwolf
 
 " Vundle settings
 set nocompatible
