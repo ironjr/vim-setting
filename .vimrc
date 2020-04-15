@@ -98,6 +98,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " Autocompleter
 Plugin 'Valloric/YouCompleteMe'
+" GLSL syntax highlighter
+Plugin 'tikhomirov/vim-glsl'
 call vundle#end()
 filetype plugin indent on
 
