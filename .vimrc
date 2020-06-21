@@ -9,6 +9,7 @@ set shiftwidth=4
 set softtabstop=0
 set expandtab
 set smarttab
+set hlsearch
 
 " Vim plugin manager
 call plug#begin()
@@ -31,8 +32,8 @@ call plug#end()
 
 " NERDtree settings
 map <C-n> :NERDTreeToggle<CR>
-let g:NERDTreeDirArrowExpandable = '>' "'▸'
-let g:NERDTreeDirArrowCollapsible = 'v' "'▾'
+let g:NERDTreeDirArrowExpandable = "▸"
+let g:NERDTreeDirArrowCollapsible = "▾"
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
@@ -88,6 +89,9 @@ set t_Co=256
 "colorscheme turtles
 "colorscheme monokai
 colorscheme badwolf
+
+" For Windows Terminal
+"hi Normal guibg=NONE ctermbg=NONE
 
 " Vundle settings
 set nocompatible
