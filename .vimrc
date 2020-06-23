@@ -92,6 +92,9 @@ colorscheme badwolf
 
 " For Windows Terminal
 "hi Normal guibg=NONE ctermbg=NONE
+"hi LineNr guibg=NONE ctermbg=NONE
+""" hi NonText guibg=NONE ctermbg=NONE
+"hi EndOfBuffer guibg=NONE ctermbg=NONE
 
 " Vundle settings
 set nocompatible
