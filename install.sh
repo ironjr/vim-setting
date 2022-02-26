@@ -14,6 +14,5 @@ git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.v
 
 # Install YouCompleteMe
 # cd $HOME/.vim/bundle
-# git clone https://github.com/ycm-core/YouCompleteMe
+# git clone --recursive https://github.com/ycm-core/YouCompleteMe
 # cd YouCompleteMe
-# git submodule update --init --recursive
