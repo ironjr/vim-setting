@@ -13,6 +13,9 @@ set hlsearch
 set bg=dark
 set backspace=indent,eol,start
 
+set ttymouse=sgr
+set mouse=a
+
 " Debug script; if you want to run this, mkdir $HOME/.log/vim first
 " set nocompatible
 " function! ToggleVerbose()
