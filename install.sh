@@ -3,6 +3,7 @@ PYTHON=python
 
 # copy .vimrc
 cp .vimrc $HOME
+cp .tmux.conf $HOME
 
 # Install VimPlug
 curl -fLo $HOME/.vim/autoload/plug.vim --create-dirs \
